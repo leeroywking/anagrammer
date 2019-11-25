@@ -1,0 +1,22 @@
+{
+  "name": "anagrammer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeroywking/anagrammer.git"
+  },
+  "author": "Lee-Roy King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leeroywking/anagrammer/issues"
+  },
+  "homepage": "https://github.com/leeroywking/anagrammer#readme"
+}
