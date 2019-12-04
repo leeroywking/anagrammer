@@ -19,4 +19,12 @@ describe('autocomplete tests', () => {
         const results = masterTree.returnWordsFromPartial('anagra', 10);
         expect(results.includes('anagram')).toBeTruthy()
     })
+    it('returns some words from a viable beginning', () => {
+        const results = masterTree.returnWordsFromPartial('catp', 10);
+        expect(results.includes('catpiece')).toBeTruthy()
+    })
+    it('correct reports nonsense as nonViable', () => {
+        const viableCatp = masterTree.isViable('catpu')
+        expect(viableCatp).toBeFalsy()
+    })
 })

@@ -32,7 +32,7 @@ function findResultTree(string) {
     if (check) { current = check }
     else {
       // console.log('No matches found');
-      break
+      return {}
     }
   }
   return current

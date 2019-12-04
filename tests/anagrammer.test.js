@@ -17,5 +17,6 @@ describe('Anagram tests', () => {
   it('returns partial words', () => {
     const partialCheck = anagrammer('catapult');
     console.log(partialCheck)
+    expect(partialCheck.includes('cat')).toBeTruthy();
   })
 })
